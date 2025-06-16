@@ -1,0 +1,16 @@
+# === Core App ===
+streamlit
+boto3
+google-cloud-texttospeech
+
+# === Text Extraction ===
+newspaper3k
+PyPDF2
+
+# === (Optional) Linting & Dev ===
+# python-dotenv           # If you want to load credentials via .env
+# black                   # Code formatter
+# isort                   # Import sorter
+
+# === If you're using ffmpeg manually (not needed now) ===
+# pydub                   # Only needed if you go back to Amazon Polly + ffmpeg
