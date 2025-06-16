@@ -54,7 +54,7 @@ Download a service account JSON key
 
 Save it as text_to_voice-key.json
 
-Export it: export GOOGLE_APPLICATION_CREDENTIALS="my-text_to_voice-key.json"
+Export it: export GOOGLE_APPLICATION_CREDENTIALS="text_to_voice-key.json"
 
 
 
