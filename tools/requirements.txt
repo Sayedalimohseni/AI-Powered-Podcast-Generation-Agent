@@ -1,0 +1,20 @@
+# === Core App ===
+streamlit
+boto3
+google-cloud-texttospeech
+langchain
+langchain-community
+tiktoken
+
+# === Text Extraction ===
+newspaper3k
+PyPDF2
+requests
+
+# === (Optional) Audio Processing ===
+# pydub                   # Only if using audio editing (e.g., with ffmpeg)
+
+# === (Optional) Linting & Dev Tools ===
+# python-dotenv           # Load credentials from .env
+# black                   # Code formatter
+# isort                   # Import sorter
