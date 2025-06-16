@@ -59,10 +59,10 @@ Export it: export GOOGLE_APPLICATION_CREDENTIALS="text_to_voice-key.json"
 
 
 
-2. 📦 Install Dependencies
+### 2. 📦 Install Dependencies
 pip install -r requirements.txt
 
-```markdown
+
 ### 3. ▶️ Run the App
 
 ```bash
@@ -75,11 +75,14 @@ Example Prompts
 
 "Make a podcast from the uploaded TXT file at /tmp/tmpxyz.txt"
 
+## 📥 Outputs
 
-Contributing
-Pull requests welcome.
+- 📄 Script preview
+- 💾 Downloadable `.txt` and `.srt` formats
+- 🔊 Optional `.mp3` file via Google TTS
+
+## 🤝 Contributing
+
+Pull requests welcome.  
 Bug reports, feedback, and feature suggestions are appreciated.
 
----
-
-Would you like me to generate and upload a `requirements.txt`, `.gitignore`, or `.zip` of the project next?
