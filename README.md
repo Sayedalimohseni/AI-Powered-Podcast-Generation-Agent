@@ -2,6 +2,7 @@
 
 An AI-powered agent that turns any URL, PDF, or TXT into an engaging podcast script — using [Mistral 7B](https://mistral.ai/news/introducing-mistral-7b/) via [Ollama](https://ollama.com/), orchestrated with [LangChain](https://www.langchain.com/), and deployed with [Streamlit](https://streamlit.io/).
 
+
 ---
 
 ## ✨ Features
@@ -40,14 +41,14 @@ podcast_langchain_agent/
 
 ---
 
-## 🚀 Getting Started
-
 ### 1. 🔧 Prerequisites
 
 - Python 3.8+
-- [Ollama](https://ollama.com/) with Mistral:
+- [Ollama](https://ollama.com/) with Mistral 7B:
   ```bash
   ollama run mistral
+
+
   (Optional) Google Cloud Text-to-Speech:
 
 Download a service account JSON key
@@ -61,7 +62,10 @@ Export it: export GOOGLE_APPLICATION_CREDENTIALS="text_to_voice-key.json"
 2. 📦 Install Dependencies
 pip install -r requirements.txt
 
-3. ▶️ Run the App
+```markdown
+### 3. ▶️ Run the App
+
+```bash
 streamlit run app/streamlit_langchain_chatbot.py
 
 Example Prompts
