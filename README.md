@@ -17,27 +17,26 @@ An AI-powered agent that turns any URL, PDF, or TXT into an engaging podcast scr
 
 ## 🧱 Project Structure
 
-
+```text
 podcast_langchain_agent/
 ├── app/
-│ ├── streamlit_langchain_chatbot.py # Streamlit chatbot UI
-│ └── langchain_agent.py # LangChain agent setup
+│   ├── streamlit_langchain_chatbot.py      # Streamlit chatbot UI
+│   └── langchain_agent.py                  # LangChain agent setup using Ollama
 │
 ├── tools/
-│ ├── init.py # LangChain Tool() definitions
-│ └── podcast_tool.py # Tool wrappers for podcast functions
+│   ├── __init__.py                         # LangChain Tool() definitions
+│   └── podcast_tool.py                     # Tool wrappers around your podcast functions
 │
-├── core/ # Original podcast generator (unchanged)
-│ ├── input_parser.py
-│ ├── ollama_script.py
-│ ├── qa_mistral.py
-│ └── text_to_voice.py
+├── core/                                   # Original podcast generator (unchanged)
+│   ├── input_parser.py                     # Extract text from URL / PDF / TXT
+│   ├── ollama_script.py                    # Mistral-based podcast script generator
+│   ├── qa_mistral.py                       # Q&A using Mistral
+│   └── tts.py                              # Google Cloud TTS for MP3 generation
 │
-├── data/ # (Optional) uploaded files
-├── .env # (Optional) for API keys
-├── requirements.txt
-└── README.md
-
+├── data/                                   # (Optional) uploaded files directory
+├── .env                                    # (Optional) environment variable config
+├── requirements.txt                        # Dependency list
+└── README.md                               # This file
 
 ---
 
