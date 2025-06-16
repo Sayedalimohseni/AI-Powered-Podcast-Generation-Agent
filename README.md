@@ -31,7 +31,7 @@ podcast_langchain_agent/
 │   ├── input_parser.py                     # Extract text from URL / PDF / TXT
 │   ├── ollama_script.py                    # Mistral-based podcast script generator
 │   ├── qa_mistral.py                       # Q&A using Mistral
-│   └── tts.py                              # Google Cloud TTS for MP3 generation
+│   └── text to voice.py                              # Google Cloud TTS for MP3 generation
 │
 ├── data/                                   # (Optional) uploaded files directory
 ├── .env                                    # (Optional) environment variable config
