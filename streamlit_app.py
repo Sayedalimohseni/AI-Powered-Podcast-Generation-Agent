@@ -3,7 +3,7 @@ import streamlit as st
 from input_parser import extract_text_from_url, extract_text_from_pdf, extract_text_from_txt
 from ollama_script import generate_podcast_script_iterative
 from qa_mistral import ask_mistral_question
-from tts import text_to_speech
+from text_to_voice import text_to_speech
 import tempfile
 
 import time
